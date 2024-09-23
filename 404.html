@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+        // Get the current URL path
+        const path = window.location.pathname;
+
+        // Check the path and redirect accordingly
+        if (path.includes('layout1')) {
+            window.location.href = '/Assignment4/layout1.html';
+        } else if (path.includes('layout2')) {
+            window.location.href = '/Assignment4/layout2.html';
+        } else if (path.includes('layout3')) {
+            window.location.href = '/Assignment4/layout3.html';
+        } else {
+            // Fallback redirect (could be home page or a specific page)
+            window.location.href = '/Assignment4/layout1.html';
+        }
+    </script>
+</head>
+<body>
+    <h1>Redirecting...</h1>
+</body>
+</html>
